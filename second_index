@@ -1,0 +1,16 @@
+text = "sims"
+symbol = "s"
+
+
+def second_index(text, symbol):
+    if text.count(symbol) > 1:
+        pos = 0
+        new_list = []
+        for n in text:
+            if symbol == n:
+                new_list.append(pos)
+            pos += 1
+        return new_list[1]
+
+
+print(second_index(text, symbol))
