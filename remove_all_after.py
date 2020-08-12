@@ -1,5 +1,4 @@
-items = []
-border = 8
+# Remove all of the elements after the given one from list.
 
 
 def remove_all_after(items: list, border: int):
@@ -13,7 +12,6 @@ def remove_all_after(items: list, border: int):
 
     return ans
 
-print(remove_all_after(items,border))
 
 
 

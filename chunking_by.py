@@ -1,8 +1,4 @@
-elements = []
-size = 7
-x = 0
-ans = []
-
+# Function splits a list into smaller lists of the same size (chunks).
 
 def chunking_by(elements, size):
     x = 0
@@ -13,4 +9,3 @@ def chunking_by(elements, size):
 
     return ans
 
-print(chunking_by(elements, size))

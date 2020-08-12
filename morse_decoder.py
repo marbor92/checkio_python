@@ -1,3 +1,6 @@
+# Function decodes Morse's code
+
+
 MORSE = {'.-': 'a', '-...': 'b', '-.-.': 'c',
          '-..': 'd', '.': 'e', '..-.': 'f',
          '--.': 'g', '....': 'h', '..': 'i',
@@ -11,8 +14,6 @@ MORSE = {'.-': 'a', '-...': 'b', '-.-.': 'c',
          '....-': '4', '.....': '5', '-....': '6',
          '--...': '7', '---..': '8', '----.': '9'
          }
-
-code = ".. -   .-- .- ...   .-   --. --- --- -..   -.. .- -.--"
 
 
 def morse_decoder(code):
@@ -28,16 +29,4 @@ def morse_decoder(code):
     else:
         return decrypt.strip()
 
-# def morse_decoder(code):
-#     words = code.split("   ")
-#     result = ""
-#     for word in words:
-#         symbols = word.split()
-#         for symbol in symbols:
-#             result += MORSE[symbol]
-#         result += " "
-#     if result[0].isalpha():
-#        result = result[0].upper() + result[1:]
-#     return result.strip()
 
-print(morse_decoder(code))

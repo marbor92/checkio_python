@@ -1,6 +1,4 @@
-text = "sims"
-symbol = "s"
-
+# Function finds an index of the second occurrence of the second string in the first given string.
 
 def second_index(text, symbol):
     if text.count(symbol) > 1:
@@ -13,4 +11,4 @@ def second_index(text, symbol):
         return new_list[1]
 
 
-print(second_index(text, symbol))
+

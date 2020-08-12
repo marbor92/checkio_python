@@ -1,4 +1,4 @@
-elements = [5, 3, 0, 0, 4, 1, 4, 0, 7]
+# Function sorts the numbers in an array without changing the position of zeros.
 
 
 def except_zero(elements):
@@ -10,4 +10,3 @@ def except_zero(elements):
 
     return ans
 
-print(except_zero(elements))

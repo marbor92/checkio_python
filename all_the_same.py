@@ -1,4 +1,4 @@
-elements = []
+# Function checks if all elements in the given list are equal
 
 
 def all_the_same(elements):
@@ -10,6 +10,3 @@ def all_the_same(elements):
         return False
     else:
         return True
-
-
-print(all_the_same(elements))

@@ -1,5 +1,4 @@
-items = [True, False, False]
-
+# Function checks if the majority of elements are true.
 
 def is_majority(items: list) -> bool:
     t = items.count(True)
@@ -8,5 +7,3 @@ def is_majority(items: list) -> bool:
         return False
     else:
         return True
-
-print(is_majority(items))

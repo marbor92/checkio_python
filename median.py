@@ -1,5 +1,4 @@
-items = [3, 1, 2, 5, 3]
-
+# Function return median of given list
 
 def median(items):
     sorted_items = sorted(items)
@@ -12,4 +11,4 @@ def median(items):
     return med
 
 
-print(median(items))
+

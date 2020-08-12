@@ -1,4 +1,6 @@
-items = [1, 2, 3, 4, 5, 6]
+# Function splits list into two lists.
+# If it has an odd amount of elements, then the first array should have more elements.
+# If it has no elements, then two empty arrays should be returned.
 
 
 def split_list(items):
@@ -12,4 +14,4 @@ def split_list(items):
     return splitted
 
 
-print(split_list(items))
+

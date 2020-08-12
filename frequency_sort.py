@@ -1,4 +1,4 @@
-items = [4, 6, 2, 2, 6, 4, 4, 4]
+# Function sorts the given iterable so that its elements end up in the decreasing frequency order.
 
 
 def frequency_sort(items):
@@ -26,6 +26,3 @@ def frequency_sort(items):
             pos1 += 1
 
     return result
-
-
-print(frequency_sort(items))

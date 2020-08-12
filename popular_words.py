@@ -1,3 +1,6 @@
+# Function checks the popularity of certain words in the text.
+
+
 text = "When I was One " \
        "I had just begun " \
        "When I was Two " \
@@ -16,5 +19,3 @@ def popular_words(text, words):
         pos += 1
     return this_dict
 
-
-print(popular_words(text, words))

@@ -1,4 +1,5 @@
-items = [1, 2, 3, 5]
+# In a given list the last element should become the first one.
+# An empty list or list with only one element should stay the same
 
 
 def replace_last(items):
@@ -12,5 +13,4 @@ def replace_last(items):
     else:
         return items
 
-print(replace_last(items))
 

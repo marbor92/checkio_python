@@ -1,6 +1,6 @@
-from datetime import datetime
+# Function converts the input date and time from computer format into a given format.
 
-time = '19.09.2999 01:59'
+from datetime import datetime
 
 def date_time(time):
     date_time_obj = datetime.strptime(time, '%d.%m.%Y %H:%M')
@@ -14,4 +14,3 @@ def date_time(time):
         m = 'minutes'
     return date_time_obj.strftime('{} %B %Y year {} {} {} {}').format(date_time_obj.day, date_time_obj.hour, h, date_time_obj.minute, m)
 
-print(date_time(time))

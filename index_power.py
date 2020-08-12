@@ -1,6 +1,5 @@
-my_list = [1, 2, 3, 4]
-power = 7
-
+# Function finds the N-th power of the element in the array with the index N.
+# If N is outside of the array, then return -1.
 
 def index_power(my_list, power) -> int:
     pos = 0
@@ -14,5 +13,3 @@ def index_power(my_list, power) -> int:
         ans = my_list[power] ** power
 
     return ans
-
-print(index_power(my_list, power))
